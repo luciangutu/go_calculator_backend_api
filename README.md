@@ -70,6 +70,17 @@ curl -X POST http://localhost:8080/add -H "Content-Type: application/json" -d '{
 
 The `LoggingMiddleware` logs details of each request and its duration. It wraps around each handler function to provide logging functionality.
 
+
+## Running Tests
+
+To ensure the functionality of the application, you can run the tests using the Go testing tool.
+
+  Execute the following command to run all tests:
+
+```shell
+   go test -v
+```
+
 ## Contributing
 
 Feel free to contribute by submitting issues or pull requests.
